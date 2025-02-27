@@ -1,79 +1,86 @@
 body {
-    background: #C9D6FF;  
-    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
-    background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+	background: #c9d6ff;
+	background: -webkit-linear-gradient(to right, #e2e2e2, #c9d6ff);
+	background: linear-gradient(to right, #e2e2e2, #c9d6ff);
 }
 
 h4 {
-    color: #000000; 
+	color: #000000;
 }
-h1 {
-    color:tomato
+
+.titulo-seccion {
+	color: tomato;
 }
 
 p {
-    font-size: 16px;
-    line-height: 1.6;
+	font-size: 16px;
+	line-height: 1.6;
 }
 .justificado {
-    text-align: justify;
+	text-align: justify;
 }
 
 .seccion-deporte {
-    background: #403A3E; 
-    background: -webkit-linear-gradient(to bottom, #BE5869, #403A3E);  
-    background: linear-gradient(to bottom, #BE5869, #403A3E);
+	background: #403a3e;
+	background: -webkit-linear-gradient(to bottom, #be5869, #403a3e);
+	background: linear-gradient(to bottom, #be5869, #403a3e);
 
-    border: 2px linen #ccc; /* el estilo del borde */
-    padding: 10px; /* Espaciado entre imagen y texto */
-    border-radius: 5px; /* esto redondea los bordes de la caja */
+	border: 2px linen #ccc; /* el estilo del borde */
+	padding: 10px; /* Espaciado entre imagen y texto */
+	border-radius: 5px; /* esto redondea los bordes de la caja */
 }
 .card {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 .card-header {
-    font-size: 1.5rem;
-    font-weight: bold;
+	font-size: 1.5rem;
+	font-weight: bold;
 }
 
 .card-body p {
-    font-size: 1.1rem;
+	font-size: 1.1rem;
 }
 /* Estilo personalizado */
 .card {
-    background: #C9D6FF;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+	background: #c9d6ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#e2e2e2,
+		#c9d6ff
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    border-radius: 10px;         /* Bordes redondeados */
+	border-radius: 10px; /* Bordes redondeados */
 }
 
 .card-header {
-    background-color:black; /* Fondo más oscuro para el encabezado */
-    color: #ECF0F1;             /* Color de texto claro */
+	background-color: black; /* Fondo más oscuro para el encabezado */
+	color: #ecf0f1; /* Color de texto claro */
 }
 
 .card-body {
-    color: #34495E;             /* Texto oscuro para mejor legibilidad */
-    font-family: 'Arial', sans-serif; /* Fuente más moderna */
+	color: #34495e; /* Texto oscuro para mejor legibilidad */
+	font-family: 'Arial', sans-serif; /* Fuente más moderna */
 }
 
 .card-body p {
-    font-size: 1.1rem;  /* Aumenta el tamaño de la fuente */
+	font-size: 1.1rem; /* Aumenta el tamaño de la fuente */
 }
 
 .card-body h5 {
-    color: #000000;      /* Color llamativo para los subtítulos */
+	color: #000000; /* Color llamativo para los subtítulos */
 }
 
 .card-body strong {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 /* Añadir bordes sombreados */
 .card {
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
