@@ -7,6 +7,7 @@
     <title>Deporte de Futbol</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -28,35 +29,72 @@
     </nav>
 
     <main class="container mt-2">
+
         <header class="container text-center my-4">
             <h1 class="titulo-seccion">Todo sobre el futbol</h1>
         </header>
 
         <hr>
-        <div class="row">
-            <div class="col col-lg-6 col-md-12">
+
+        <div class="row d-flex align-items-center">
+
+            <div class="col-md-4 d-flex flex-column align-items-center">
                 <img src="https://images.unsplash.com/photo-1434648957308-5e6a859697e8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vdGJhbGwlMjB3YWxscGFwZXJ8ZW58MHx8MHx8fDA%3D"
-                    class="img-fluid rounded" alt="Un buen partido">
+                    class="img-fluid" alt="Un buen partido">
+                <p class="text-center py-3 mt-1">
+                    La regla principal es que los jugadores, excepto los guardametas, no pueden tocar intencionalmente
+                    la pelota con sus
+                    brazos o manos durante el juego, aunque deben usar sus manos para los saques de banda.
+                </p>
             </div>
-            <div class="col col-lg-6 col-md-12">
+
+            <div class="col-md-8 h-100">
                 <h2>Que es el futbol?</h2>
-                <p>Juego entre dos equipos de once jugadores cada uno, cuyo objetivo es hacer entrar en la portería
-                    contraria un balón que
-                    no puede ser tocado con las manos ni con los brazos, salvo por el portero en su área de meta.</p>
+                <p>Es un deporte de equipo jugado entre dos conjuntos de once jugadores cada uno, mientras los árbitros
+                    se ocupan de que
+                    las normas se cumplan correctamente. Es, ampliamente, considerado el deporte más popular del mundo,
+                    pues lo practican
+                    unas 270 millones de personas.</p>
+                <p>En algunos países de habla inglesa, también se lo conoce como soccer, abreviatura de association,
+                    puesto que el nombre
+                    de football en esos países se asocia mayoritariamente a otros deportes con esa denominación
+                    (principalmente en Estados
+                    Unidos, donde el nombre football aplica para el fútbol americano, un deporte totalmente distinto).
+                </p>
+                <p>El terreno de juego es rectangular de césped natural o artificial, con una portería o arco a cada
+                    lado del campo. Se
+                    juega mediante una pelota que se debe desplazar a través del campo con cualquier parte del cuerpo
+                    que no sean los brazos
+                    o las manos, y mayoritariamente con los pies (de ahí su nombre).</p>
+                <p>El objetivo es introducirla dentro de la portería o arco contrario, acción que se denomina marcar un
+                    gol. El equipo que
+                    logre más goles al cabo del partido, de una duración de 90 minutos, es el que resulta ganador del
+                    encuentro.</p>
+                <p>Las posiciones en un equipo de fútbol incluyen al portero, los defensores centrales, los laterales
+                    derecho e izquierdo,
+                    los centrocampistas defensivos, ofensivos y generales, los extremos derecho e izquierdo, y los
+                    delanteros centro y
+                    segundo delantero.</p>
             </div>
+        </div>
         </div>
 
         <section class="my-4">
             <h2 class="mb-3">Ligas mas importantes</h2>
-            <div class="accordion" id="accordionExample">
+
+            <div class="accordion" id="accordionLigas">
+
                 <div class="accordion-item">
-                    <h2 class="accordion-header">
+                    <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"
                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <img src="https://i.pinimg.com/736x/8f/39/52/8f395207c4bb3619cccfc6d71204c367.jpg"
+                                alt="Logo" width="45" class="rounded me-3">
                             1. La Liga (España)
                         </button>
                     </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionPlayers">
                         <div class="accordion-body">
                             <ul>
                                 <li>
@@ -90,117 +128,249 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsePremier" aria-expanded="false" aria-controls="collapsePremier">
+                            <img src="https://a1.espncdn.com/combiner/i?img=%2Fi%2Fleaguelogos%2Fsoccer%2F500%2F23.png"
+                                alt="Logo" width="45" class="rounded me-3">
+                            2. Premier League (Inglaterra)
+                        </button>
+                    </h2>
+                    <div id="collapsePremier" class="accordion-collapse collapse" data-bs-parent="#accordionLigas">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <p><b>Nombre completo:</b> Premier League</p>
+                                </li>
+                                <li>
+                                    <p><b>Fundación:</b> 1992</p>
+                                </li>
+                                <li>
+                                    <p><b>País:</b> Inglaterra</p>
+                                </li>
+                                <li>
+                                    <p><b>Equipos más destacados:</b> Manchester United, Manchester City, Liverpool,
+                                        Chelsea, Arsenal.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><b>Formato:</b> 20 equipos, sistema de liga con 38 partidos.</p>
+                                </li>
+                                <li>
+                                    <p><b>Campeón actual:</b> (Revisar la temporada actual).</p>
+                                </li>
+                                <li>
+                                    <p><b>Competencias internacionales:</b> Los primeros 4 equipos clasifican a la Liga
+                                        de Campeones de
+                                        la UEFA, el 5º accede a la UEFA Europa League.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseSerieA" aria-expanded="false" aria-controls="collapseSerieA">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Serie_A_Made_in_Italy_logo.svg/154px-Serie_A_Made_in_Italy_logo.svg.png"
+                                alt="Logo" width="45" class="img-fluid rounded me-3">
+                            3. Serie A (Italia)
+                        </button>
+                    </h2>
+                    <div id="collapseSerieA" class="accordion-collapse collapse" data-bs-parent="#accordionLigas">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <p><b>Nombre completo:</b> Serie A TIM</p>
+                                </li>
+                                <li>
+                                    <p><b>Fundación:</b> 1898</p>
+                                </li>
+                                <li>
+                                    <p><b>País:</b> Italia</p>
+                                </li>
+                                <li>
+                                    <p><b>Equipos más destacados:</b> Juventus, Inter de Milán, AC Milan, Roma, Nápoles.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p><b>Formato:</b> 20 equipos, sistema de liga a ida y vuelta.</p>
+                                </li>
+                                <li>
+                                    <p><b>Campeón actual:</b> (Revisar la temporada actual).</p>
+                                </li>
+                                <li>
+                                    <p><b>Competencias internacionales:</b> Los primeros 4 equipos clasifican a la Liga
+                                        de Campeones de
+                                        la UEFA, el 5º accede a la UEFA Europa League.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseBundesliga" aria-expanded="false"
+                            aria-controls="collapseBundesliga">
+                            <img src="https://e7.pngegg.com/pngimages/6/543/png-clipart-2017-18-bundesliga-1963-64-bundesliga-hertha-bsc-fc-bayern-munich-germany-football-text-label-thumbnail.png"
+                                alt="Logo" width="45" class="img-fluid rounded me-3">
+                            4. Bundesliga (Alemania)
+                        </button>
+                    </h2>
+                    <div id="collapseBundesliga" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <p><b>Nombre completo:</b> Bundesliga</p>
+                                </li>
+                                <li>
+                                    <p><b>Fundación:</b> 1963</p>
+                                </li>
+                                <li>
+                                    <p><b>País:</b> Alemania</p>
+                                </li>
+                                <li>
+                                    <p><b>Equipos más destacados:</b> Bayern Múnich, Borussia Dortmund, RB Leipzig,
+                                        Bayer Leverkusen,
+                                        Borussia Mönchengladbach.</p>
+                                </li>
+                                <li>
+                                    <p><b>Formato:</b> 18 equipos, sistema de liga a ida y vuelta (34 partidos).</p>
+                                </li>
+                                <li>
+                                    <p><b>Campeón actual:</b> (Revisar la temporada actual).</p>
+                                </li>
+                                <li>
+                                    <p><b>Competencias internacionales:</b> Los primeros 4 equipos clasifican a la Liga
+                                        de Campeones de
+                                        la UEFA, el 5º accede a la UEFA Europa League.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLigue1" aria-expanded="false" aria-controls="collapseLigue1">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ligue1.svg/1200px-Ligue1.svg.png"
+                                alt="Logo" width="45" class="img-fluid rounded me-3">
+                            5. Ligue 1 (Francia)
+                        </button>
+                    </h2>
+                    <div id="collapseLigue1" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <p><b>Nombre completo:</b> Ligue 1 Uber Eats</p>
+                                </li>
+                                <li>
+                                    <p><b>Fundación:</b> 1932</p>
+                                </li>
+                                <li>
+                                    <p><b>País:</b> Francia</p>
+                                </li>
+                                <li>
+                                    <p><b>Equipos más destacados:</b> París Saint-Germain (PSG), Olympique de Marsella,
+                                        AS Mónaco, Lyon,
+                                        Lille.</p>
+                                </li>
+                                <li>
+                                    <p><b>Formato:</b> 20 equipos, todos juegan en una liga con 38 partidos.</p>
+                                </li>
+                                <li>
+                                    <p><b>Campeón actual:</b> (Revisar la temporada actual).</p>
+                                </li>
+                                <li>
+                                    <p><b>Competencias internacionales:</b> Los primeros 2 equipos clasifican
+                                        directamente a la fase de
+                                        grupos de la Liga de Campeones de la UEFA, el 3º pasa a la fase de
+                                        clasificación.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+
         </section>
+
+        <section class="my-4">
+            <h2 class="text-center mb-3">Jugadores mas populares</h2>
+
+            <table class="table table-striped shadow rounded">
+                <thead>
+                    <tr>
+                        <th scope="col" class="text-center">Foto</th>
+                        <th scope="col" class="text-center">Jugador</th>
+                        <th scope="col" class="text-center">Nacionalidad</th>
+                        <th scope="col" class="text-center">Equipo Actual</th>
+                        <th scope="col" class="text-center">Posición</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-center"><img src="https://pngfre.com/wp-content/uploads/lionel-messi-9.png"
+                                width="80" class="img-fluid rounded"></td>
+                        <td class="align-middle text-center">Lionel Messi</td>
+                        <td class="align-middle text-center">Argentina</td>
+                        <td class="align-middle text-center">Inter Miami</td>
+                        <td class="align-middle text-center">Delantero</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center"><img
+                                src="https://www.citypng.com/public/uploads/preview/hd-manchester-united-cristiano-ronaldo-png-704081694879614ve2mgoyxyq.png"
+                                width="80" class="img-fluid rounded"></td>
+                        <td class="align-middle text-center">Cristiano Ronaldo</td>
+                        <td class="align-middle text-center">Portugal</td>
+                        <td class="align-middle text-center">Al-Nassr</td>
+                        <td class="align-middle text-center">Delantero</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center"><img src="https://pbs.twimg.com/media/GPKmd1uakAM1Wua.png" width="80"
+                                class="img-fluid rounded">
+                        </td>
+                        <td class="align-middle text-center">Kylian Mbappé</td>
+                        <td class="align-middle text-center">Francia</td>
+                        <td class="align-middle text-center">Paris Saint-Germain</td>
+                        <td class="align-middle text-center">Delantero</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center"><img
+                                src="https://haalandstats.com/wp-content/uploads/2024/03/Erling-Haaland-Manchester-City.png"
+                                width="80" class="img-fluid rounded">
+                        </td>
+                        <td class="align-middle text-center">Erling Haaland</td>
+                        <td class="align-middle text-center">Noruega</td>
+                        <td class="align-middle text-center">Manchester City</td>
+                        <td class="align-middle text-center">Delantero</td>
+                    </tr>
+                    <tr>
+                        <td class="text-center"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR94Mh0WhpGUcspXbhZ9huw-cZzSpEc7L0V5g&s"
+                                width="80" class="img-fluid rounded"></td>
+                        <td class="align-middle text-center">Neymar Jr.</td>
+                        <td class="align-middle text-center">Brasil</td>
+                        <td class="align-middle text-center">Al-Hilal</td>
+                        <td class="align-middle text-center">Delantero</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
     </main>
 
     <footer class="bg-dark text-white text-center py-3 mt-4">
         <p>&copy; Todos los derechos reservados. Gracias por su visita</p>
     </footer>
+
 </body>
 
 </html>
-
-<!-- 2. Premier League (Inglaterra)
-Nombre completo: Premier League
-Fundación: 1992
-País: Inglaterra
-Equipos más destacados: Manchester United, Manchester City, Liverpool, Chelsea, Arsenal.
-Formato: 20 equipos, sistema de liga con 38 partidos.
-Campeón actual: (Revisar la temporada actual)
-Competencias internacionales: Los primeros 4 equipos clasifican a la Liga de Campeones de la UEFA, el 5º accede a la UEFA Europa League.
-3. Serie A (Italia)
-Nombre completo: Serie A TIM
-Fundación: 1898
-País: Italia
-Equipos más destacados: Juventus, Inter de Milán, AC Milan, Roma, Nápoles.
-Formato: 20 equipos, sistema de liga a ida y vuelta.
-Campeón actual: (Revisar la temporada actual)
-Competencias internacionales: Los primeros 4 equipos clasifican a la Liga de Campeones de la UEFA, el 5º accede a la UEFA Europa League.
-4. Bundesliga (Alemania)
-Nombre completo: Bundesliga
-Fundación: 1963
-País: Alemania
-Equipos más destacados: Bayern Múnich, Borussia Dortmund, RB Leipzig, Bayer Leverkusen, Borussia Mönchengladbach.
-Formato: 18 equipos, sistema de liga a ida y vuelta (34 partidos).
-Campeón actual: (Revisar la temporada actual)
-Competencias internacionales: Los primeros 4 equipos clasifican a la Liga de Campeones de la UEFA, el 5º accede a la UEFA Europa League.
-5. Ligue 1 (Francia)
-Nombre completo: Ligue 1 Uber Eats
-Fundación: 1932
-País: Francia
-Equipos más destacados: París Saint-Germain (PSG), Olympique de Marsella, AS Mónaco, Lyon, Lille.
-Formato: 20 equipos, todos juegan en una liga con 38 partidos.
-Campeón actual: (Revisar la temporada actual)
-Competencias internacionales: Los primeros 2 equipos clasifican directamente a la fase de grupos de la Liga de Campeones de la UEFA, el 3º pasa a la fase de clasificación. -->
-
-<!-- 1. Lionel Messi
-Equipo: Inter Miami (MLS)
-Nacionalidad: Argentina
-Número de goles: 800+ goles (aproximadamente)
-Número de asistencias: 350+ asistencias
-Sueldo aproximado: $50 millones (USD anuales, incluyendo su salario y contratos comerciales)
-Resumen: Messi es uno de los jugadores más populares y exitosos de la historia del fútbol. Con múltiples Balones de Oro y éxitos tanto a nivel de clubes como selecciones, sigue siendo un referente en el fútbol mundial.
-2. Cristiano Ronaldo
-Equipo: Al Nassr (Arabia Saudita)
-Nacionalidad: Portugal
-Número de goles: 850+ goles (aproximadamente)
-Número de asistencias: 230+ asistencias
-Sueldo aproximado: $75 millones (USD anuales, incluyendo salario y patrocinadores)
-Resumen: Ronaldo sigue siendo una leyenda viviente del fútbol mundial, con una carrera marcada por su capacidad goleadora y su trabajo incansable. Ha jugado para algunos de los clubes más grandes del mundo, como el Manchester United, Real Madrid y Juventus.
-3. Kylian Mbappé
-Equipo: París Saint-Germain (PSG)
-Nacionalidad: Francia
-Número de goles: 250+ goles (aproximadamente)
-Número de asistencias: 140+ asistencias
-Sueldo aproximado: $125 millones (USD anuales, incluyendo salario y contratos comerciales)
-Resumen: Mbappé es uno de los jugadores más jóvenes y talentosos del fútbol moderno. Aclamado por su velocidad, técnica y habilidades de finalización, ha ganado varios títulos de liga y competiciones internacionales.
-4. Erling Haaland
-Equipo: Manchester City (Inglaterra)
-Nacionalidad: Noruega
-Número de goles: 200+ goles (aproximadamente)
-Número de asistencias: 40+ asistencias
-Sueldo aproximado: $30 millones (USD anuales)
-Resumen: Haaland ha deslumbrado al mundo con su capacidad de marcar goles. En su corta carrera, ha batido varios récords de goles y es considerado uno de los mejores delanteros del mundo en la actualidad.
-5. Neymar Jr.
-Equipo: Al Hilal (Arabia Saudita)
-Nacionalidad: Brasil
-Número de goles: 400+ goles (aproximadamente)
-Número de asistencias: 250+ asistencias
-Sueldo aproximado: $70 millones (USD anuales, incluyendo salario y contratos comerciales)
-Resumen: Neymar ha sido uno de los jugadores más populares y talentosos de la última década. Con habilidades de dribbling excepcionales y una capacidad para marcar goles, sigue siendo uno de los jugadores más seguidos del fútbol mundial.
-6. Robert Lewandowski
-Equipo: FC Barcelona (España)
-Nacionalidad: Polonia
-Número de goles: 600+ goles (aproximadamente)
-Número de asistencias: 120+ asistencias
-Sueldo aproximado: $18 millones (USD anuales)
-Resumen: Lewandowski es uno de los mejores goleadores de la historia del fútbol. Ha ganado múltiples títulos de liga y ha sido el máximo goleador de la Bundesliga antes de mudarse al FC Barcelona.
-7. Karim Benzema
-Equipo: Al-Ittihad (Arabia Saudita)
-Nacionalidad: Francia
-Número de goles: 450+ goles (aproximadamente)
-Número de asistencias: 170+ asistencias
-Sueldo aproximado: $50 millones (USD anuales)
-Resumen: Benzema, ganador del Balón de Oro 2022, es conocido por su capacidad para liderar el ataque y su inteligencia en el campo. Después de una exitosa carrera en el Real Madrid, decidió mudarse a la liga saudita.
-8. Luka Modrić
-Equipo: Real Madrid (España)
-Nacionalidad: Croacia
-Número de goles: 120+ goles (aproximadamente)
-Número de asistencias: 180+ asistencias
-Sueldo aproximado: $12 millones (USD anuales)
-Resumen: Modrić es uno de los mediocampistas más completos de la historia reciente, con una increíble visión de juego y habilidad para distribuir el balón. Fue galardonado con el Balón de Oro en 2018.
-9. Kevin De Bruyne
-Equipo: Manchester City (Inglaterra)
-Nacionalidad: Bélgica
-Número de goles: 140+ goles (aproximadamente)
-Número de asistencias: 250+ asistencias
-Sueldo aproximado: $25 millones (USD anuales)
-Resumen: De Bruyne es uno de los mediocampistas más creativos y efectivos del fútbol. Su visión y capacidad de pase lo han convertido en una pieza clave en el Manchester City.
-10. Mohamed Salah
-Equipo: Liverpool (Inglaterra)
-Nacionalidad: Egipto
-Número de goles: 200+ goles (aproximadamente)
-Número de asistencias: 100+ asistencias
-Sueldo aproximado: $18 millones (USD anuales)
-Resumen: Salah es uno de los jugadores más destacados de la Premier League en la última década, conocido por su habilidad para marcar goles y sus regateos espectaculares. Ha sido una figura clave en el éxito reciente del Liverpool. -->
