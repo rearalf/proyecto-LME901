@@ -88,3 +88,7 @@ p {
 main {
 	min-height: 85vh;
 }
+
+.formulario {
+	width: 100%;
+}
