@@ -88,3 +88,8 @@ p {
 main {
 	min-height: 85vh;
 }
+.custom-text {
+	font-size: 3rem; /* Hace el texto más grande */
+        color: #FF5733; 
+        font-weight: bold;
+}
